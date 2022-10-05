@@ -183,3 +183,93 @@ main {
   text-align: center;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .card-front,
+  .card-back {
+    max-width: 327px;
+  }
+
+  .card-front {
+    padding-block: 1.5rem 2rem;
+    padding-inline: 1.5rem;
+  }
+
+  .card-back {
+    padding-block: 34px 37px;
+    padding-inline: 1.5rem;
+  }
+
+  .image-holder {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+
+  .card-front > h1,
+  .card-back > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 0.625rem;
+    padding-block: 3.5px;
+  }
+
+  .card-front > p,
+  .card-back > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #969fad;
+    margin-bottom: 1.5rem;
+  }
+
+  .rating {
+    margin-bottom: 1.5rem;
+  }
+
+  .rating > .rate {
+    width: 42px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.175px;
+  }
+
+  .button {
+    padding-block: 12px;
+    padding-inline: 108px 139px;
+    text-transform: uppercase;
+  }
+
+  .button > p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.87px;
+    padding-block: 1.5px;
+
+    color: #ffffff;
+  }
+
+  .card-back > img {
+    width: 144px;
+    height: 96px;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-back > p:first-of-type {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding-block: 5px;
+    padding-inline: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-back > p {
+    text-align: center;
+    margin: 0;
+  }
+}
